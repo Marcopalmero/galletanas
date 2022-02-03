@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #e0bf04;
+    background-image: url(https://cdn.dribbble.com/users/39838/screenshots/2520068/cookie_pattern.jpg);
+    font-family: 'Dekko';font-size: 22px;
+    color: whitesmoke;
+}
+.titulo{
+    text-align: center;
+    background-color: #d5a457;
+    padding: 45px;
+    width: 100%;
+}
+.subtitulo{
+    text-align: center;
+}
+.a{
+    margin: 20px;
+    color: honeydew;
+    transition: font-size 2s;
+}
+h1{
+    font-size: 75px;
+}
+.a:hover {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    transition: font-size 2s;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #91703c;
+    color: white;
+    text-align: center;
+  }
+  
+.container1{
+    background-color: #d5a557d0;
+    color: black;
+}
+.titulocontainer1{
+    color: black;
+    font-size: 70px;
+}
+.img{
+height: 100%;
+width: 100%;
+}
+
+.test{
+  display: inline-block;
+  vertical-align: top;
+  color: black;
+}
+
+.container2{
+    background-color: rgba(121, 86, 40, 0.7);
+    padding-bottom: 80px;
+}
+
+.cookies{
+    color: black;
+    background-color: #d5a557be ;
+}
+.rowt{
+    padding-top: 20px;
+}
+.card-deck{
+   color: black;
+}
+
+.container3{
+    background-color: #ffffffd0;
+    color: black;
+    width: 100%;
+    
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(121, 86, 40, 0.7);
+  }
+
+.text{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+  .card:hover .overlay {
+    opacity: 0.5;
+  }
+
+.container4{
+    background-color: rgba(121, 86, 40, 0.7);
+    color: black;
+    height: 100%;
+    width: 100%;
+}
